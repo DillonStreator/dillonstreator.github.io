@@ -9784,25 +9784,25 @@ function (_App) {
           lineNumber: 23
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("link", {
-        rel: "shortcut icon",
-        href: "/portfolio/_next/static/favicon.ico",
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("meta", {
+        name: "Description",
+        content: "Dillon Streator personal portfolio site",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 24
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("link", {
-        rel: "manifest",
-        href: "/portfolio/_next/static/manifest.json",
+        rel: "shortcut icon",
+        href: "/static/favicon.ico",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 25
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("link", {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Montserrat|Ubuntu",
+        rel: "manifest",
+        href: "/static/manifest.json",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 26
@@ -9810,7 +9810,7 @@ function (_App) {
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "/portfolio/_next/static/css/main.css",
+        href: "/static/css/main.css",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 27
