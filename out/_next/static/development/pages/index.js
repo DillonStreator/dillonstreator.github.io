@@ -20479,7 +20479,14 @@ var captions = ['Positive', 'Passionate', 'Dedicated', 'Simplicity > Complexity'
 var Index = function Index() {
   var _React$createElement;
 
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.container,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.profileImage,
     __source: {
       fileName: _jsxFileName,
@@ -20600,7 +20607,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cdillo%5Cworkspace%5Cportfolio%5Cpages%5Cindex.js ***!
   \********************************************************************************************************************************/
@@ -20623,5 +20630,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]));;
+},[[1,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=index.js.map
