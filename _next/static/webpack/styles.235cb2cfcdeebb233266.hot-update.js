@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
+webpackHotUpdate("styles",{
 
 /***/ "./components/Link/styles.module.scss":
 /*!********************************************!*\
@@ -182,45 +182,7 @@ module.exports = {"terminalContainer":"_2JaOgoHHyp25h2hJl-LQp4","before":"_3yLZY
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1571713315398");
-          });
-      }
-    }
-  
-
-/***/ }),
-
-/***/ "./pages/_app.module.scss":
-/*!********************************!*\
-  !*** ./pages/_app.module.scss ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-module.exports = {"h-100":"_2VAFRtVksMHkd1VH5ERxLj","w-100":"_1I4B2P0uNa_NJc3g6JYLGl","centered":"_2HKlNyr2pek0sKM4fdG0-Y","container":"_21HqnMfffllqOZ84WIZNZc"};;
-    if (true) {
-      var injectCss = function injectCss(prev, href) {
-        var link = prev.cloneNode();
-        link.href = href;
-        link.onload = function() {
-          prev.parentNode.removeChild(prev);
-        };
-        prev.stale = true;
-        prev.parentNode.insertBefore(link, prev);
-      };
-      module.hot.dispose(function() {
-        window.__webpack_reload_css__ = true;
-      });
-      if (window.__webpack_reload_css__) {
-        module.hot.__webpack_reload_css__ = false;
-        console.log("[HMR] Reloading stylesheets...");
-        var prefix = document.location.protocol + '//' + document.location.host;
-        document
-          .querySelectorAll("link[href][rel=stylesheet]")
-          .forEach(function(link) {
-            if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1571713187587");
+            injectCss(link, link.href.split("?")[0] + "?unix=1571713190091");
           });
       }
     }
@@ -266,5 +228,5 @@ module.exports = {"container":"zfONCRCV716iYqwePmoXH","divider":"_2OCgjf337XOnun
 
 /***/ })
 
-}]);
-//# sourceMappingURL=styles.js.map
+})
+//# sourceMappingURL=styles.235cb2cfcdeebb233266.hot-update.js.map

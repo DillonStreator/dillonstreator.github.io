@@ -37,6 +37,7 @@ var _jsxFileName = "C:\\Users\\dillo\\workspace\\portfolio\\components\\Link\\Li
     },
     __self: this
   }), children) : react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, rest, {
+    className: _styles_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.link,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -72,36 +73,21 @@ var _jsxFileName = "C:\\Users\\dillo\\workspace\\portfolio\\components\\Loader\\
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.loader,
+    className: _styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.skCubeGrid,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 6
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
+  }, new Array(9).fill(null).map(function (_, idx) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.skCube, " ").concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a["skCube".concat(idx + 1)]),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      },
+      __self: this
+    });
   }));
 });
 
@@ -20498,9 +20484,11 @@ var Index = function Index() {
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     href: "/static/resume.pdf",
     raw: true,
+    target: "blank",
+    rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 16
     },
     __self: this
   }, "CV"));
@@ -20510,7 +20498,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cdillo%5Cworkspace%5Cportfolio%5Cpages%5Cindex.js ***!
   \********************************************************************************************************************************/
@@ -20533,5 +20521,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]));;
+},[[1,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=index.js.map
