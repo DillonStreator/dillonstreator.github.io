@@ -146,7 +146,8 @@ body > div {
   text-decoration: none;
   font-weight: 500;
   text-shadow: none;
-  margin: 5px 0px; }
+  margin: 5px 0px;
+  text-align: center; }
   ._1uimUnykwCN0xLI5mb9atl::before, ._1uimUnykwCN0xLI5mb9atl::after {
     color: #FFF;
     display: inline-block;
@@ -238,9 +239,20 @@ h2 {
   background-color: chartreuse; }
 
 .W3Q4VhaVENmSToaEvV-3J {
+  position: absolute;
+  bottom: 30px;
   display: flex;
+  flex-wrap: wrap;
   width: 50%;
   justify-content: space-around; }
+  .W3Q4VhaVENmSToaEvV-3J > a {
+    justify-content: center; }
+    .W3Q4VhaVENmSToaEvV-3J > a img {
+      height: 40px; }
+
+@media (max-width: 767px) {
+  .W3Q4VhaVENmSToaEvV-3J {
+    width: 75%; } }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

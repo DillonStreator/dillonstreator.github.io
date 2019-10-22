@@ -24,9 +24,10 @@ var _jsxFileName = "C:\\Users\\dillo\\workspace\\portfolio\\components\\Link\\Li
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
-  var raw = _ref.raw,
+  var icon = _ref.icon,
+      raw = _ref.raw,
       children = _ref.children,
-      rest = Object(_babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["raw", "children"]);
+      rest = Object(_babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["icon", "raw", "children"]);
 
   return raw ? react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
     className: _styles_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.link
@@ -36,18 +37,46 @@ var _jsxFileName = "C:\\Users\\dillo\\workspace\\portfolio\\components\\Link\\Li
       lineNumber: 8
     },
     __self: this
-  }), children) : react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, rest, {
-    className: _styles_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.link,
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, icon && react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+    src: "/static/".concat(icon),
+    alt: icon,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, children))) : react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, rest, {
+    className: _styles_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.link,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), icon && react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+    src: "/static/".concat(icon),
+    alt: icon,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
     className: _styles_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.link,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 17
     },
     __self: this
   }, children));
@@ -789,6 +818,36 @@ function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
   return Constructor;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
 }
 
 /***/ }),
@@ -20404,11 +20463,13 @@ function extend() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components */ "./components/index.js");
-/* harmony import */ var _index_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.module.scss */ "./pages/index.module.scss");
-/* harmony import */ var _index_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_module_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components */ "./components/index.js");
+/* harmony import */ var _index_module_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.module.scss */ "./pages/index.module.scss");
+/* harmony import */ var _index_module_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_index_module_scss__WEBPACK_IMPORTED_MODULE_3__);
+
 var _jsxFileName = "C:\\Users\\dillo\\workspace\\portfolio\\pages\\index.js";
 
 
@@ -20416,21 +20477,16 @@ var _jsxFileName = "C:\\Users\\dillo\\workspace\\portfolio\\pages\\index.js";
 var captions = ['Positive', 'Passionate', 'Dedicated', 'Simplicity > Complexity', 'Secure, Succinct Development', 'Test Driven Development', 'Iterative Development'];
 
 var Index = function Index() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.container,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.profileImage,
+  var _React$createElement;
+
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.profileImage,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
     alt: 'Picture of me',
     src: "/static/profile.jpg",
     __source: {
@@ -20438,35 +20494,35 @@ var Index = function Index() {
       lineNumber: 11
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.name,
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.name,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
     "data-text": "Dillon Streator",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, "Dillon Streator")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.about,
+  }, "Dillon Streator")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.about,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
     "data-text": "Full Stack Developer",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, "Full Stack Developer")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["TerminalType"], {
+  }, "Full Stack Developer")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["TerminalType"], {
     before: ">",
     commands: captions,
     __source: {
@@ -20474,14 +20530,14 @@ var Index = function Index() {
       lineNumber: 14
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
-    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.divider,
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("hr", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.divider,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     href: "/static/resume.pdf",
     raw: true,
     target: "blank",
@@ -20491,14 +20547,60 @@ var Index = function Index() {
       lineNumber: 16
     },
     __self: this
-  }, "CV"));
+  }, "CV"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.socialLinks,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    icon: "linkedin.svg",
+    href: "https://www.linkedin.com/in/dillon-streator-75b01b83/",
+    raw: true,
+    target: "blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    icon: "github.svg",
+    href: "https://github.com/DillonStreator",
+    raw: true,
+    target: "blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["Link"], (_React$createElement = {
+    icon: "stack-overflow",
+    href: "https://stackoverflow.com/users/8765619/cranky-coder"
+  }, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "icon", "stack-overflow.svg"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "raw", true), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "target", "blank"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "rel", "noopener noreferrer"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "__source", {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  }), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "__self", this), _React$createElement)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    icon: "npm.svg",
+    href: "https://www.npmjs.com/~dillonstreator",
+    raw: true,
+    target: "blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cdillo%5Cworkspace%5Cportfolio%5Cpages%5Cindex.js ***!
   \********************************************************************************************************************************/
@@ -20521,5 +20623,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]));;
+},[[2,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=index.js.map
