@@ -1,33 +1,3 @@
-html,
-body,
-body > div {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  font-family: "Lato", sans-serif; }
-
-._2VAFRtVksMHkd1VH5ERxLj {
-  height: 100%; }
-
-._1I4B2P0uNa_NJc3g6JYLGl {
-  width: 100%; }
-
-._2HKlNyr2pek0sKM4fdG0-Y {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-._21HqnMfffllqOZ84WIZNZc {
-  background-color: #222;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #EEE;
-  height: 100vh; }
-
 .bp1h223gxh7CRXoq62vpp {
   width: 40px;
   height: 40px;
@@ -242,5 +212,33 @@ h2 {
   width: 50%;
   justify-content: space-around; }
 
+html,
+body,
+body > div {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif; }
 
-/*# sourceMappingURL=styles.chunk.css.map*/
+._2VAFRtVksMHkd1VH5ERxLj {
+  height: 100%; }
+
+._1I4B2P0uNa_NJc3g6JYLGl {
+  width: 100%; }
+
+._2HKlNyr2pek0sKM4fdG0-Y {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+._21HqnMfffllqOZ84WIZNZc {
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #EEE;
+  height: 100vh; }
+
