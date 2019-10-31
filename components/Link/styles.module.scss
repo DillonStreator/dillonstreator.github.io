@@ -1,0 +1,52 @@
+@import "../../styles/variables.scss";
+
+.link {
+    color: $white;
+    display: flex;
+	text-decoration: none;
+	font-weight: 500;
+    text-shadow: none;
+    margin: 5px 0px;
+    text-align: center;
+
+	&::before, &::after {
+        color: $white;
+        display: inline-block;
+        box-sizing: border-box;
+        opacity: 0;
+		transition: transform 0.35s, opacity 0.35s;
+    }
+    &::before {
+        content: '';
+        color: $purple;
+        transform: translateX(5px) scaleY(0.5);
+        height: 100%;
+        width: 7px;
+        position: relative;
+        border-left: 3px solid $purple;
+        border-top: 1.5px solid $purple;
+        border-bottom: 1.5px solid $purple;
+    }
+    &::after {
+        content: '';
+        color: $purple;
+        transform: translateX(-5px) scaleY(0.5);
+        height: 100%;
+        width: 7px;
+        position: relative;
+        border-right: 3px solid $purple;
+        border-top: 1.5px solid $purple;
+        border-bottom: 1.5px solid $purple;
+    }
+    
+	&:hover::before,
+	&:focus::before {
+        transform: translate(-5px) scaleY(1);
+        opacity: 1;
+    }
+    &:hover::after,
+	&:focus::after {
+        transform: translateX(5px) scaleY(1);
+        opacity: 1;
+	}
+}

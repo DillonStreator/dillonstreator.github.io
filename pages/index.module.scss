@@ -1,0 +1,96 @@
+@import "styles/variables.scss";
+
+h1,
+h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	background-color: $black;
+	display: flex;
+	flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 30px;
+	align-items: center;
+	color: $gray-light;
+	height: 100vh;
+}
+
+.divider {
+	background-color: $purple;
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	margin-top: 30px;
+	margin-bottom: 40px;
+	width: 25%;
+}
+
+.profileImage {
+	margin-bottom: 5px;
+	height: 230px;
+	width: 230px;
+	border: 1px solid $purple;
+	box-shadow: 3px 3px 3px $purple;
+	border-radius: 50%;
+	img {
+		width: 230px;
+		border-radius: 50%;
+	}
+}
+
+.name {
+	z-index: 10;
+	font-size: 1.25em;
+}
+
+.about {
+	z-index: 10;
+	margin-top: 0;
+	font-size: 0.7em;
+	margin-bottom: 30px;
+	color: $gray-dark;
+}
+
+.socialSites {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.projects {
+	background-color: chartreuse;
+}
+
+.socialLinks {
+    position: absolute;
+    bottom: 30px;
+    
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+	justify-content: space-around;
+
+	& > a {
+		justify-content: center;
+
+		& img {
+			height: 40px;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+    .socialLinks {
+        width: 75%;
+    }
+}
+
+@media (max-height: 700px) {
+    .container {
+        justify-content: flex-start;
+        padding-top: 15px;
+    }
+}

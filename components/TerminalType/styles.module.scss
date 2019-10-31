@@ -1,0 +1,24 @@
+@import "../../styles/variables.scss";
+
+
+.terminalContainer {
+    background-color: $black-dark;
+    border-radius: 5px;
+    padding: 0px 5px;
+    padding: 3px;
+    color: $gray-light;
+    font-size: 15px;
+}
+
+.before {
+    margin-right: 5px;
+    color: $purple;
+}
+
+.cursor {
+    margin-left: 5px;
+    color: $purple;
+    
+    &.show { opacity: 1; }
+    &.hide { opacity: 0; }
+}

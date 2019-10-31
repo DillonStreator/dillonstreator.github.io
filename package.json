@@ -1,0 +1,36 @@
+{
+  "name": "dillonstreator.github.io",
+  "version": "1.0.0",
+  "description": "Personal page of mine",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin master",
+    "deploy-windows": "next build && next export && type nul > out\\.nojekyll && git add out\\ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DillonStreator/dillonstreator.github.io.git"
+  },
+  "author": "Dillon Streator",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DillonStreator/dillonstreator.github.io/issues"
+  },
+  "homepage": "https://github.com/DillonStreator/dillonstreator.github.io#readme",
+  "dependencies": {
+    "@svgr/webpack": "^4.3.3",
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^8.0.4",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-markdown": "^4.0.6"
+  },
+  "devDependencies": {
+    "babel-plugin-root-import": "^6.1.0"
+  }
+}
